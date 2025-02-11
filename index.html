@@ -3,51 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - IOTByteCrafter</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- SEO Meta Tags -->
+    <title>Portfolio - IOTByteCrafter | Frontend Developer</title>
+    <meta name="description" content="IOTByteCrafter - A passionate Frontend Developer specializing in modern web technologies and IoT solutions. Explore my portfolio and get in touch!">
+    <meta name="keywords" content="Frontend Developer, Web Developer, JavaScript, HTML, CSS, IoT, Portfolio, UI/UX">
+    <meta name="author" content="IOTByteCrafter">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="IOTByteCrafter - Frontend Developer">
+    <meta property="og:description" content="Explore my portfolio to see my latest projects in frontend development and IoT.">
+    <meta property="og:image" content="https://yourwebsite.com/profile.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IOTByteCrafter - Frontend Developer">
+    <meta name="twitter:description" content="Passionate Frontend Developer & IoT enthusiast. Let's build something amazing!">
+    <meta name="twitter:image" content="https://yourwebsite.com/profile.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <a href="YOUR_DISCORD_INVITE_LINK" class="discord-button" target="_blank">Join My Discord</a>
 
-<style>
-.discord-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5865F2;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.discord-button:hover {
-    background-color: #4854C4;
-}
-</style>
-
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="Sohag Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <a href="https://discord.com/users/1188178613418340432" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord" width="40">
-                </a>
-            </ul>
-        </nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="IOTByteCrafter Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!-- Discord Logo with Profile Link -->
+                    <li>
+                        <a href="https://discord.com/users/1188178613418340432" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord" width="40">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
     </header>
 
     <section class="hero">
         <div class="hero-content">
             <h1>Hi, I'm <span>IOTByteCrafter</span></h1>
             <h2>Frontend Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tempora ex nisi dolore sequi voluptatibus!</p>
+            <p>Passionate about crafting beautiful and efficient web applications. Let's build something amazing together!</p>
             <div class="buttons">
                 <a href="#" class="btn primary">Hire Me</a>
                 <a href="#" class="btn secondary">Let's Talk</a>
@@ -58,14 +70,37 @@
         </div>
     </section>
 
+    <!-- Discord Button -->
+    <div class="discord-container">
+        <a href="https://discord.com/users/1188178613418340432" class="discord-button" target="_blank">Join My Discord</a>
+    </div>
+
     <footer>
         <div class="social-links">
-            <a href="#" alt="Hacker Tree"></a>
             <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
             <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
         </div>
     </footer>
+
     <script src="j/script.js"></script>
+
+    <style>
+        .discord-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #5865F2;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .discord-button:hover {
+            background-color: #4854C4;
+        }
+        .discord-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </body>
 </html>
-
